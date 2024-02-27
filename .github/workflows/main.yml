@@ -16,8 +16,4 @@ jobs:
           cd ./docs
           yarn
           yarn build
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: docs/build # The folder the action should deploy.
+          $ GIT_USER=nkazeanderson yarn deploy
