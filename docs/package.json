@@ -58,7 +58,7 @@
     ]
   },
   "engines": {
-    "node": ">=20.0"
+    "node": ">=16.0"
   },
   "resolutions": {
     "@types/react": "18.0.8",
