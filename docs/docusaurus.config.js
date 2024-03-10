@@ -12,7 +12,7 @@ const { NODE_ENV, DOCUSAURUS_BASE_URL } = process.env;
 
 const title = 'React Native Paper';
 
-const url = 'https://callstack.github.io';
+const url = 'https://fancy-kulfi-78c45e.netlify.app';
 
 /**
  * There are 3 environments that we want to support:
@@ -23,9 +23,7 @@ const url = 'https://callstack.github.io';
  *
  * Both `baseUrl` and `publicUrl` work together to ensure assets and links work properly on every deployment
  */
-const baseUrl =
-  DOCUSAURUS_BASE_URL ||
-  (NODE_ENV === 'development' ? '/' : '/react-native-paper/');
+const baseUrl = "/";
 const publicUrl =
   NODE_ENV === 'development' ? 'http://localhost:3000/' : `${url}${baseUrl}`;
 
